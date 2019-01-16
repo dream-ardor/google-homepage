@@ -1,40 +1,17 @@
-body{
-    color:blue;
-    background-color: aqua;
-}
-
-.center {
+.container {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 109px;
   }
 
-  img{
-      position: relative;
+  form {
+      line-height: 34px;
+      height: 34px;
+      
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
+  form input {
+      width:400px;
+      height:22px;
   }
