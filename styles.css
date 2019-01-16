@@ -15,3 +15,30 @@
       width:400px;
       height:22px;
   }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: float;
+    margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f2f2f2;
+      line-height: 40px;
+      font-family: arial,sans-serif;
+  
+    }
+
+    .a {
+        display: inline-block;
+    padding: 14px 16px;
+    
+      }
+    
+      .b {
+        display: inline-block;
+        padding-right: 50px;
+        padding: 14px 16px;
+      }
