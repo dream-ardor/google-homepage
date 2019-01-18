@@ -20,6 +20,7 @@
      text-decoration: none;
      padding: 4px;
      font-size: 14px;
+     
  }
 
  a:hover {
@@ -27,7 +28,16 @@
  }
 
  button{
-     background:rgb(218, 218, 218);
+     background: #f2f2f2;
+     border: 1px solid #f2f2f2;
+     border-radius: 2px;
+     font-family: arial,sans-serif;
+     font-weight: bold;
+     font-size: 13px;
+     padding: 10px 16px;
+     padding-right: 16px;
+     padding-left: 16px;
+     margin: 11px 4px;
  }
 
  footer {
