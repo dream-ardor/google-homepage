@@ -1,9 +1,36 @@
+#nav-bar{
+display: inline;
+}
+
+li{
+    float: left;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
 .container {
     display: block;
   justify-content: center;
   text-align: center;
   padding-top: 109px;
   }
+
+.gsuite{
+    height:14px;
+    width: 14px;
+    opacity: .50;
+}
+
+.gsuite:hover {
+    opacity: 1;
+}
 
   form {
       line-height: 34px;
